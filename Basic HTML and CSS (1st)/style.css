@@ -1,0 +1,74 @@
+
+       body form+p .special{
+             color: rgb(236, 13, 136) ;
+             background-color: rgb(91, 214, 245);
+             font-size: 19px;;
+            
+         }
+         a:hover{
+             color: yellow;
+         }
+         body h1+p .special{
+             color: rgb(11, 2, 87);
+            
+         }
+         #abc{
+             color: chartreuse;
+         }
+         a:visited{
+             color: coral;
+         }
+         span[class="f"] {
+             color: crimson;
+         }
+         table{
+             padding:3px;
+             border-spacing: 2px;
+         }
+         th{
+             background-color: black;
+         }
+         .vv{
+              background-color: black;
+         }
+        body form{
+            padding: 5px 20px 15px 20px;
+            box-sizing: border-box;
+            border-color: blue;
+            margin: 5px 5px;
+            background-color: rgb(224, 209, 209);
+            
+            
+        }
+        input[type= "submit"] {
+            width: 200px;
+            color: blue;
+            background-color: rgb(89, 236, 89);
+            border: grey;
+            cursor: pointer;
+            padding: 5px;
+            margin-left: 40%;
+        }
+        input[type= "submit"]:hover{
+            background-color: rgb(27, 192, 27);
+        }
+        input[type= "text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 5px;
+           
+        }
+        fieldset{
+            width: 100%;
+            padding: 4px;
+        }
+        .jk{
+            width: 101%;
+            padding: initial;
+            
+        }
+        @media screen and (width: 700px){
+        body {color:rebeccapurple ;}
+            
+        }
